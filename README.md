@@ -17,6 +17,9 @@ Flask==1.1.1
 ### Run application
 ```
 python3 app.py /path/to/your/root/directory/containing/images
+
+sample:
+python app.py /Users/tactlabs/d/datasets/sample_images
 ```
 
 If you wish to run it on a server and view the gallery on your own system then you will need to [port forward](https://www.ssh.com/ssh/tunneling/example) to your local system's IP or you might use a tunnelling service like [ngrok](https://ngrok.com).
